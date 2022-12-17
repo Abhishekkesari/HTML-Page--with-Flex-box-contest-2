@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter';
+
+
+}
+header{
+    position: sticky;
+}
+.navbar {
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    left: 0px;
+    top: 0px;
+  
+    background: #000000;
+}
+
+.cont {
+    margin: 5px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    flex-wrap: wrap;
+    justify-content: end;
+    position: fixed;
+}
+
+.left a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px;
+
+
+
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+nav ul {
+    display: flex;
+    margin: 10px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px;
+
+
+}
+
+.cont2 {
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+.content {
+
+    position: absolute;
+    width: 609px;
+    height: 491px;
+    left: 14px;
+    top: 110px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+
+
+
+    .img {
+        position: absolute;        height: 200px;
+        left: 649px;
+        top: 120px;
+    }
+   
+#btn {
+
+    position: absolute;
+    width: 148px;
+    height: 66px;
+    left: 1px;
+    top: 501px;
+    background: #000000;
+    color: white;
+    font-size: 27px;
+}
+
+.cont3 {
+
+    position: absolute;
+    width: 498.42px;
+    height: 447.57px;
+    left: 11px;
+    top: 777px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    flex-wrap: wrap;
+
+}
+
+.fleximg {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.fleximg ul li{
+    display: flex;
+    flex-wrap: wrap; 
+   
+}
+.fleximg ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10px;
+}
+img {
+    object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 5px;
+  list-style: none;
+}
+.imgs{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+
